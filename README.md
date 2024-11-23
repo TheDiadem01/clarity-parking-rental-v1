@@ -1,24 +1,19 @@
-# Parking Spot Rental System
+# Parking Space Rental Smart Contract
 
-A blockchain-based parking spot rental system that allows:
+A blockchain-based solution for managing shared parking space rentals. This contract allows:
 
-- Parking spot owners to register their spots
-- Users to rent available parking spots
-- Automatic fee calculation based on duration
-- Secure and transparent rental management
+- Property owners to register their parking spaces
+- Set hourly rental rates
+- Manage availability
+- Users to rent available spaces
+- Automated rental period management
+- Transparent rental history
 
-## Features
+The contract handles:
+- Registration of parking spaces
+- Managing space availability
+- Rental bookings
+- Rental completion
+- Access control for owners and renters
 
-- Register new parking spots with custom hourly rates
-- Rent available parking spots
-- End rentals and calculate fees
-- View parking spot status and rental information
-
-## Smart Contract Functions
-
-- register-parking-spot: Register a new parking spot
-- rent-spot: Rent an available parking spot
-- end-rental: End an active rental
-- get-parking-spot: Get parking spot information
-- get-rental-duration: Calculate rental duration
-- calculate-rental-fee: Calculate rental fees
+This creates a decentralized platform for P2P parking space rentals with transparent and immutable record-keeping.
